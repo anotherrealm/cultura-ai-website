@@ -1,0 +1,26 @@
+# Frontend Dependencies (Node.js/npm based)
+# This file is for documentation purposes as the actual dependencies are in package.json
+
+# Main framework and build tools
+# react@^18.3.1
+# vite@^5.4.8
+# typescript@^5.5.3
+
+# UI and Styling
+# tailwindcss@^3.4.13
+# lucide-react@^0.446.0
+# @radix-ui/react-*@latest
+
+# Development tools
+# @vitejs/plugin-react@^4.3.1
+# eslint@^9.11.1
+# typescript-eslint@^8.7.0
+
+# For Python backend (if needed later)
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+gunicorn==21.2.0
+psycopg2-binary==2.9.7
+python-decouple==3.8
+whitenoise==6.6.0
