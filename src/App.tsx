@@ -237,7 +237,7 @@ const CulturaAI = () => {
               Preserving African heritage through AI innovation
             </p>
             <p className="text-[#e0d6c4]/60 text-sm">
-              © 2024 CulturaAI. All rights reserved.
+              © 2025 CulturaAI. All rights reserved.
             </p>
           </div>
         </div>
