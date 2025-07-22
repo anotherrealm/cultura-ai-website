@@ -61,17 +61,17 @@ const HomePage: React.FC<HomePageProps> = ({ scrollToSection }) => {
                 <div className="absolute inset-4 bg-gradient-to-br from-[#f8f6f0]/90 to-white/80 rounded-full backdrop-blur-sm border border-[#d6b06f]/30"></div>
                 {/* Central Content */}
                 <div className="absolute inset-8 flex flex-col items-center justify-center text-center space-y-4">
-                  {/* Central Circle and Content: much smaller on small screens, text remains visible and proportional */}
-                  <div className="flex flex-col items-center justify-center text-center space-y-0.5 sm:space-y-2">
-                    <div className="w-5 h-5 sm:w-12 sm:h-12 md:w-16 md:h-16 bg-gradient-to-br from-[#d6b06f] to-[#73ffb4] rounded-full flex items-center justify-center mb-1 sm:mb-4">
-                      <Globe className="w-3 h-3 sm:w-6 sm:h-6 text-white" />
+                  {/* Central Circle and Content: way smaller on small screens, with extra margin below to avoid overlap */}
+                  <div className="flex flex-col items-center justify-center text-center space-y-0.5 sm:space-y-2 mb-6 sm:mb-0">
+                    <div className="w-3.5 h-3.5 sm:w-12 sm:h-12 md:w-16 md:h-16 bg-gradient-to-br from-[#d6b06f] to-[#73ffb4] rounded-full flex items-center justify-center mb-1 sm:mb-4">
+                      <Globe className="w-2 h-2 sm:w-6 sm:h-6 text-white" />
                     </div>
-                    <h3 className="text-[10px] sm:text-base md:text-lg font-semibold text-[#d6b06f]">Cultural AI</h3>
-                    <p className="text-[8px] sm:text-xs md:text-sm text-[#342603]/80">Preserving Heritage</p>
+                    <h3 className="text-[9px] sm:text-base md:text-lg font-semibold text-[#d6b06f]">Cultural AI</h3>
+                    <p className="text-[7px] sm:text-xs md:text-sm text-[#342603]/80">Preserving Heritage</p>
                     <div className="flex space-x-0.5 sm:space-x-2">
-                      <div className="w-1 h-1 sm:w-2 sm:h-2 bg-[#d6b06f] rounded-full animate-bounce"></div>
-                      <div className="w-1 h-1 sm:w-2 sm:h-2 bg-[#73ffb4] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
-                      <div className="w-1 h-1 sm:w-2 sm:h-2 bg-[#d6b06f] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                      <div className="w-0.5 h-0.5 sm:w-2 sm:h-2 bg-[#d6b06f] rounded-full animate-bounce"></div>
+                      <div className="w-0.5 h-0.5 sm:w-2 sm:h-2 bg-[#73ffb4] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+                      <div className="w-0.5 h-0.5 sm:w-2 sm:h-2 bg-[#d6b06f] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
                     </div>
                   </div>
                 </div>
