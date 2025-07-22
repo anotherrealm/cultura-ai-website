@@ -243,6 +243,7 @@ const CulturaAI = () => {
         </div>
       </footer>
 
+
       {/* Scroll to Top Button */}
       {showScrollTop && (
         <button
